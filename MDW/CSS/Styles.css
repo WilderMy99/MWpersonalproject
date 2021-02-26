@@ -1,0 +1,93 @@
+h1 {
+    font-family: fantasy;
+    font-size: 100px;
+    color: lightblue;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+h3 {
+    color: lightblue;
+    text-align: center;
+}
+
+.clr {
+    clear: both;
+}
+
+.button {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background: blue;
+    color: white;
+}
+
+p {
+    color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: rgb(13, 79, 221);
+}
+
+a {
+    color: lightblue;
+    background-color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.my-form {
+    color: lightblue;
+    padding: 20px;
+}
+
+.my-form,
+.form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+    color: lightblue;
+}
+
+.my-form input[type="text"],
+[type="email"],
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
+    color: lightblue;
+}
+
+.Block {
+    float: left;
+    width: 33.3%;
+    border: 1px lightblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: rgb(45, 79, 90);
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
