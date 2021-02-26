@@ -1,0 +1,77 @@
+    .main-header {
+        text-align: center;
+        font-size: 85px;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        background-color: lightblue;
+        background-position: center center;
+        padding: 25px 20px;
+        background-image: url("../css/images/waves.jpg");
+        width: 100%
+    }
+    
+    nav {
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'Franklin Gothic Medium', Arial Narrow, Arial, 'sans-serif';
+    }
+    
+    .button {
+        background-color: lightblue;
+        color: white;
+        padding: 4px;
+        border: none;
+        text-decoration: none;
+    }
+    
+    .button:hover {
+        background: rgb(1, 160, 212);
+        color: white;
+    }
+    
+    .clr {
+        clear: both;
+    }
+    
+    .sidebar {
+        float: right;
+        width: 30%;
+        padding: 15px;
+        box-sizing: border-box;
+        background-color: rgba(7, 189, 250, 0.432);
+    }
+    
+    .block {
+        float: left;
+        width: 70%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    .Copy-right {
+        text-align: center;
+    }
+    
+    .my-form {
+        color: lightblue;
+        padding: 20px;
+    }
+    
+    .my-form,
+    .form-group {
+        padding-bottom: 15px;
+    }
+    
+    .my-form label {
+        display: block;
+        color: lightblue;
+    }
+    
+    .my-form input[type="text"],
+    [type="email"],
+    .my-form textarea {
+        padding: 8px;
+        width: 40%;
+        color: lightblue;
+    }
